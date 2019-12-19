@@ -5,6 +5,8 @@ const app = express();
 // Connect database
 connectDB();
 
+// Init Middleware(Bodypaser) for parse the post info
+app.use(express.json({ extended: false }));
 app.get('/', (req, res) => res.send('API is running'));
 
 // Define Routes
