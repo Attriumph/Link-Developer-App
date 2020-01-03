@@ -3,6 +3,7 @@ const router = express.Router();
 const config = require('config');
 const request = require('request');
 const Profile = require('../../models/Profile');
+const Post = require('../../models/Post');
 const auth = require('../../middleware/auth');
 const { check, validationResult } = require('express-validator');
 
@@ -73,7 +74,7 @@ router.post(
     if (status) profileFields.status = status;
     if (githubusername) profileFields.githubusername = githubusername;
     if (skills) {
-      profileFields.skills = skills.split().map(skill => skill.trim());
+      profileFields.skills = skills.split(',').map(skill => skill.trim());
     }
     // Build social object, otherwise will get error of "undefined"
     profileFields.social = {};
@@ -148,7 +149,8 @@ router.get('/user/:user_id', async (req, res) => {
 // @access  Private
 router.delete('/', auth, async (req, res) => {
   try {
-    // @todo - remove the user
+    // remove the user posts
+    await Post.deleteMany({ user: req.user.id });
 
     // remove the profile and user
     await Profile.findOneAndRemove({ user: req.user.id });
