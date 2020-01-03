@@ -1,4 +1,4 @@
-import React, { useEffect, useState, Fragment } from 'react';
+import React, { useState, Fragment } from 'react';
 // in order to use history to redirect in action, we need withRouter
 import { Link, withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
