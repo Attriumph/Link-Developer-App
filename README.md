@@ -32,8 +32,8 @@ The project is a fullstack application of social network. MERN(Node.js, Express,
 
 <div align="center">    
  <img src="./githubImage/homepage.png" alt="homepage" width="800" style="display:inline"/>
- <img src="./githubImage/signin.png" alt="info" width="800" style="display:inline" />
- <img src="./githubImage/createProfile.png" alt="info" width="800" style="display:inline" />
+ <img src="./githubImage/signin.png" alt="info" width="300" style="display:inline" />
+ <img src="./githubImage/createProfile.png" alt="info" width="300" style="display:inline" />
  <img src="./githubImage/createPosts.png" alt="info" width="800" style="display:inline" />
  <img src="./githubImage/editProfile.png" alt="info" width="800" style="display:inline" />
  <img src="./githubImage/profile.png" alt="info" width="800" style="display:inline" />
