@@ -2,7 +2,7 @@
 
 ## 1.High-level Discription
 
-The project is a fullstack application of social network. MERN(Node.js, Express, React, Redux and MongoDB) stack is used to implement the app. Developers can register their own accounts, create their own profile and interat with other developer on the forum.
+The project is a fullstack application of social network. MERN(Node.js, Express, React, Redux and MongoDB) stack is used to implement the app. Developers can register their own accounts, create their own profile and interat with other developer on the forum. A few to-do are waiting for implementation.
 
 ## 2. What did in this project
 
@@ -30,8 +30,24 @@ The project is a fullstack application of social network. MERN(Node.js, Express,
 
 ## 3. App Screenshot
 
+<div align="center">    
+ <img src="./githubImage/homepage.png" alt="homepage" width="800" style="display:inline"/>
+ <img src="./githubImage/signin.png" alt="info" width="800" style="display:inline" />
+ <img src="./githubImage/createProfile.png" alt="info" width="800" style="display:inline" />
+ <img src="./githubImage/createPosts.png" alt="info" width="800" style="display:inline" />
+ <img src="./githubImage/editProfile.png" alt="info" width="800" style="display:inline" />
+ <img src="./githubImage/profile.png" alt="info" width="800" style="display:inline" />
+ <img src="./githubImage/discussPosts.png" alt="info" width="800" style="display:inline" />
+ <img src="./githubImage/developers.png" alt="info" width="800" style="display:inline" />
+ </div>
+
 ## 4. To-do
+
+- Allow user to modify Avatar
+- Add job post functionality
+- Add search functionality
+- Add message fucntionality
 
 ### Source of Project
 
-[From Bradtraversy](https://github.com/bradtraversy/devconnector_2.0)
+[Root project from Bradtraversy](https://github.com/bradtraversy/devconnector_2.0)
