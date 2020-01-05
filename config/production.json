@@ -1,6 +1,7 @@
 {
-  "mongoURI": "mongodb+srv://admin:admin@devconnector-fmehh.azure.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken",
-  "githubClientId": "4e9ec4c701ba80239ada",
-  "githubSecret": "51c33525912be5221583f59b9e242f99351df2cb"
+  "mongoURI": "xxxxx",
+  "jwtSecret": "xxxxxx",
+  "githubClientId": "xxxxxx",
+  "githubSecret": "xxxxxx"
 }
+
