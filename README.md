@@ -7,7 +7,7 @@
 
 ## 1.High-level Discription
 
-This project is almost from [the root project from Bradtraversy](https://github.com/bradtraversy/devconnector_2.0). The project is a fullstack application of social network. MERN(Node.js, Express, React, Redux and MongoDB) stack is used to implement the app. Developers can register their own accounts, create their own profile and interat with other developer on the forum. In order to make it more comprehensive, a few to-dos can be added(see below), which are good for learning and pratice. I'd like to list them as my to-dos.
+The project is a fullstack application of social network. MERN(Node.js, Express, React, Redux and MongoDB) stack is used to implement the app. Developers can register their own accounts, create their own profile and interat with other developer on the forum. In order to make it more comprehensive, a few to-dos can be added(see below), which are good for learning and pratice. I'd like to list them as my to-dos.
 
 ## 2. What did in this project
 
